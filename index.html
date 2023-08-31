@@ -7,30 +7,53 @@
     <title>Drew's Portfolio</title>
   </head>
   <body>
-    <header>
+    <header class="sticky-header">
       <h1 id="header-title"><a href="./index.html">Drew Casas</a></h1>
       <nav>
         <ul class="nav-links">
-          <li><a href="link.html">Resumé</a></li>
-          <li><a href="link.html">Projects</a></li>
-          <li><a href="link.html">Contact Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resumé</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
         </ul>
       </nav>
     </header>
     <section id="hero">
-      <img src="./assets/images/mountains.jpg" alt="photo of mountains" />
+      <!-- <img src="./assets/images/mountains.jpg" alt="photo of mountains" /> -->
     </section>
-    <section class="project-card">
-      <img src="./assets/images/landing-page.jpg" alt="stock image 1" />
-      <p class="desc float-right">About this project</p>
+
+    <section id="about-me">
+      <img src="./assets/images/drew1.jpg" alt="picture of Drew" />
+      <p>
+        How's it going? As you can see above my name is Drew and I'm currently
+        pursuing a career as a Full-Stack developer. Big time fantasy nerd. This
+        is my portfolio, so feel free to poke around. If you would like to
+        contact me please refer to the link in the nav bar
+      </p>
     </section>
-    <section class="project-card">
-      <img src="img" alt="project 1 img" />
-      <p>About this project</p>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <section class="card-container">
+        <section id="first-project" class="project-card">
+          <h3 class="card-title">Prework Study Guide</h3>
+          <a href="https://drewhouses.github.io/prework-study-guide/"
+            ><img src="./assets/images/studyguide.PNG" alt="project 1 img"
+          /></a>
+        </section>
+        <section class="project-card">
+          <img src="./assets/images/lotr.jpg" alt="stock image 1" />
+        </section>
+        <section class="project-card coming-soon">
+          <img src="./assets/images/coming-soon.jpg" alt="project 1 img" />
+        </section>
+      </section>
     </section>
-    <section class="project-card">
-      <img src="img" alt="project 1 img" />
-      <p>About this project</p>
-    </section>
+    <div id="resume">
+      <a href="./assets/DrewCasasResume2.docx">Click for Resume</a>
+    </div>
+
+    <div id="contact-me">
+      <p>Feel free to reach me at drewcasas49@gmail.com</p>
+    </div>
   </body>
 </html>
