@@ -33,7 +33,6 @@ header {
     z-index: 100;
 }
 
-
 #header-title {
     font-size: 50px;
     color: #333333;
@@ -82,7 +81,7 @@ nav ul li {
     margin-right: 100px;
     margin-left: 100px;
     display: flex;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     padding-top: auto;
     position: relative;
     top: 60px;
@@ -114,6 +113,7 @@ nav ul li {
     display: flex;
     flex: 2 0 200px;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .project-card {
@@ -141,18 +141,13 @@ nav ul li {
     margin-left: 25px;
 }
 
-#first-project img {
-    height: 400px;
-    width: 600px;
-}
-
 .project-card img:hover {
     box-shadow: 0 0 40px #ce5a5a;
     transform: scale(1.05);
 }
 
-.card-title {
-    margin-left: 25px;
+.card-title  {
+    text-align: center;
 }
 
 #resume {
@@ -165,13 +160,19 @@ nav ul li {
 #contact-me {
     text-align: center;
     font-size: 40px;
-    padding-bottom: 200px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
     text-align: center;
     font-size: 40px;
     text-decoration: underline;
+}
+
+.footer-icons {
+    justify-content: space-around;
 }
 
 /* Tablets */
